@@ -57,7 +57,13 @@ public class Main {
         int[][] hadamardMatrix = generateHadamardMatrix(n);
 
         // Provided CDMA code
-        int[] cdmaCode =
+        int[] cdmaCode = {
+                3540, 12, 166, 222, -262, -18, -116, -336, -172, 152, 402, -58, -122,
+                -26, 60, -228, -610, -282, -148, 132, -260, 208, 10, -194, 370, -162,
+                100, -160, -420, 132, 22, -386, 16, 44, -178, -206, -286, -142, 120,
+                16, 284, 204, -146, 70, 266, -226, -36, 248, 70, -382, 584, -36, -216,
+                120, 226, 170, -386, -26, 268, 316, -52, -216, -86, 78
+        };
 
         // Calculate the data at the 24th station (index 23 due to 0-based indexing)
         int stationIndex = 23; // 24th device
